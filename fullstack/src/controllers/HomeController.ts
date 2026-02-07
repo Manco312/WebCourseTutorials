@@ -1,4 +1,6 @@
 import type { Request, Response } from 'express';
+import { books } from '../data/Books.js';
+import { Book } from '../models/Book.js';
 
 export class HomeController {
 
